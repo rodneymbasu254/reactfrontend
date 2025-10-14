@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
       {/* background video (put hero-bg.mp4 into /public) */}
       <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover">
-        <source src="/assets/nextzone.mp4" type="video/mp4" />
+        <source src="/nextzone.mp4" type="video/mp4" />
       </video>
 
       {/* gradient overlay */}
@@ -51,3 +51,4 @@ export default function Hero() {
     </section>
   );
 }
+
