@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-8 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-wzrdIndigo to-wzrdPurple flex items-center justify-center shadow-lg">
-            <span className="text-white font-bold"><img src="/assets/Logo.png"></img></span>
+            <span className="text-white font-bold"><img src="/Logo.png"></img></span>
           </div>
           <span className="text-white font-semibold tracking-wide">Wiz@rd Group Holdings</span>
         </Link>
@@ -66,3 +66,4 @@ export default function Navbar() {
     </header>
   );
 }
+
