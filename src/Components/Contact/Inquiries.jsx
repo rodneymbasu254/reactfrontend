@@ -32,7 +32,7 @@ export default function Inquiries() {
     <div className="flex flex-col md:flex-row items-center justify-center px-8 py-16 bg-white">
       <div className="md:w-1/2 mb-8 md:mb-0">
         <img
-          src="/assets/contact.png"
+          src="/contact.png"
           alt="Contact"
           className="w-full h-80 object-cover rounded-2xl shadow-lg"
         />
@@ -100,3 +100,4 @@ export default function Inquiries() {
     </div>
   );
 }
+
