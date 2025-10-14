@@ -18,7 +18,7 @@ function Blog() {
   }
 
   // import a single image (you can change this path to your actual asset)
-  const blogImage = "/assets/wizrd blogs.png";
+  const blogImage = "/wizrd blogs.png";
 
   return (
     <div className="bg-gray-100 min-h-screen p-8">
@@ -54,3 +54,4 @@ function Blog() {
 }
 
 export default Blog;
+
