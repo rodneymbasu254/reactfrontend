@@ -42,7 +42,7 @@ function Projects() {
                   ? project.image
                   : "/project-placeholder.png"
               }
-              onError={(e) => (e.target.src = "/images/project-placeholder.png")}
+              onError={(e) => (e.target.src = "/project-placeholder.png")}
               alt={project.title}
               className="w-full h-auto object-cover shadow-lg hover:scale-105 transition-transform duration-300 rounded-xl"
             />
@@ -85,7 +85,7 @@ function Projects() {
         ))
       ) : (
         <p className="text-center text-gray-600 mt-10">
-          No projects available at the moment. Please check back later.
+          Server reconnecting. Please check back later.
         </p>
       )}
     </div>
@@ -93,5 +93,6 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
