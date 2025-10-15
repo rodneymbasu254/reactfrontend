@@ -12,6 +12,7 @@ import Inquiries from "./Components/Contact/Inquiries";
 
 function App() {
   return (
+    <HelmetProvider>
     <div className="bg-gray-50 text-gray-900 font-sans">
       <Navbar />
       <Routes>
@@ -34,9 +35,11 @@ function App() {
       </Routes>
       <Footer />
     </div>
+    </HelmetProvider>  
   );
 }
 
 export default App;
+
 
 
