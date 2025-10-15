@@ -20,7 +20,7 @@ function Projects() {
       {/* ✅ Static banner image */}
       <div className="flex justify-center mb-12">
         <img
-          src="/images/projects-banner.jpg"
+          src="/projects.png"
           alt="Projects Showcase"
           className="rounded-2xl shadow-lg w-full max-w-5xl object-cover"
         />
@@ -93,3 +93,4 @@ function Projects() {
 }
 
 export default Projects;
+
