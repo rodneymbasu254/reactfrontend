@@ -40,7 +40,7 @@ function Projects() {
               src={
                 project.image && project.image !== ""
                   ? project.image
-                  : "/images/project-placeholder.png"
+                  : "/project-placeholder.png"
               }
               onError={(e) => (e.target.src = "/images/project-placeholder.png")}
               alt={project.title}
@@ -93,4 +93,5 @@ function Projects() {
 }
 
 export default Projects;
+
 
